@@ -1,0 +1,22 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+#puzzleContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.puzzle-piece {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    font-size: 2rem;
+    cursor: pointer;
+}
